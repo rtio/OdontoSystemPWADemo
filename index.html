@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Odonto System</title>
+    <meta name="description" content="PWA de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#01ADEF">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#01ADEF">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "rtio.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body>
+<div class="current-page">
+
+
+<main class="home">
+	
+	<h1 class="z-depth-1">Odonto System</h1>
+
+	<div class="collection z-depth-1">
+		<a href="clinicas.html" class="collection-item waves-effect">
+			<i class="material-icons">today</i>
+			Marcação de Consulta
+		</a>	
+
+		<a href="minhas-marcacoes.html" class="collection-item waves-effect">
+			<i class="material-icons">assignment</i>
+			Minhas Marcações
+		</a>
+
+		<a href="contato.html" class="collection-item waves-effect">
+			<i class="material-icons">phone</i>
+			Contato
+		</a>
+	</div>
+
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/materialize-0.97.0.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+

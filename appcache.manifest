@@ -1,0 +1,35 @@
+CACHE MANIFEST
+
+
+CACHE:
+./files.json
+./index.html
+./contato.html
+./clinicas.html
+./manifest.json
+./minhas-marcacoes.html
+./css/main.css
+./icons/MaterialIcons-Regular.ttf
+./icons/material.css
+./img/menina.png
+./img/icon.png
+./img/ticket.png
+./js/barcode.js
+./js/install.js
+./js/main.js
+./js/pagamento.js
+./js/spa.js
+./img/clinicas/clinica.png
+./js/vendor/jquery.min.js
+./js/vendor/materialize-0.97.0.min.js
+./js/vendor/quagga.min.js
+
+
+NETWORK:
+*
+
+
+SETTINGS:
+prefer-online
+
+# hash: fb4337bb4b7ca55dca942234efcb592bf0b3d87e98083a1a864ff3e4ceda83ac

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Adidas</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#01ADEF">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Shopping">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#01ADEF">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "localhost")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body>
+<div class="current-page">
+
+
+<main class="loja">
+
+	<div class="parallax-container">
+		<a href="index.html">
+			<i class="material-icons waves-effect waves-light waves-circle">arrow_back</i>
+		</a>
+
+		<div class="parallax">
+			<img src="img/clinicas/clinica.png" alt="Clinica">
+		</div>
+	</div>
+
+	<div class="section white">
+		<div class="row container">
+			<h2 class="header">Contato</h2>
+			<p class="grey-text text-darken-3 lighten-3">Há 27 anos, a Odonto System viabiliza serviços odontológicos de qualidade contribuindo para a melhoria da saúde, bem-estar e estética dos clientes.</p>
+		</div>
+	</div>
+
+	<div class="section blue lighten-5">
+		<div class="row container">
+			<p>Endereço: <strong>Av. Desembargador Moreira</strong></p>
+			<p>Número: <strong>2120</strong></p>
+			<p>Funcionamento: <strong>8h - 18h</strong></p>
+			<p>Telefone: <strong>85 3131 8888</strong></p>
+			<p>Email: <strong>contato@odontosystem.com.br</strong></p>
+		</div>
+	</div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light blue darken-4"
+           href="tel:8531318888">
+            <i class="material-icons">call</i>
+        </a>
+    </div>
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/materialize-0.97.0.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>

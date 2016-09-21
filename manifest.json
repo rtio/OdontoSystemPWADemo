@@ -1,0 +1,16 @@
+{
+  "short_name": "OdontoSystem",
+  "name": "Odonto System",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#01ADEF",
+  "background_color": "#01ADEF"
+}
